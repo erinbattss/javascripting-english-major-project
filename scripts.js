@@ -53,7 +53,7 @@ myBurritoObject = {
   habaneroSauceSquirts: 3
 };
 $("#response").html(myBurritoObject.tortilla); */
-let myHabaneroSauceSquirts, myBurritoObject;
+/* let myHabaneroSauceSquirts, myBurritoObject;
 myHabaneroSauceSquirts = 3;
 myBurritoObject = {
   tortilla: "wheat",
@@ -71,4 +71,15 @@ myBurritoObject = {
 $("#response").html("Your " + myBurritoObject.tortilla + " burrito has " +
 myBurritoObject.habaneroSauceSquirts +
 " squirts of habanero.");
-myBurritoObject.spiciness();
+myBurritoObject.spiciness(); */
+/*let turtles, sortedTurtles, reversedTurtles, turtleNames;
+turtles = ["Leonardo", "Donatello", "Raphael", "Michelangelo"];
+sortedTurtles = turtles.sort();
+reversedTurtles = turtles.reverse();
+turtleNames = turtles.join(" ");
+turtles.push("Splinter");
+turtles.pop(); */
+let turtles;
+ turtles = ["Leo", "Don", "Ralph", "Michael"];
+ let lastturtle = turtles.pop(); //returns Michael
+ $("#response").html(lastturtles);
