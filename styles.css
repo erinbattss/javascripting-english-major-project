@@ -1,0 +1,12 @@
+p {
+  color: #2E4EA9;
+}
+.second-paragraph {
+  color:#4A2EA9;
+}
+#third-paragraph {
+  color: #1A520B;
+}
+p.lead{
+  color: #6C0202;
+}

@@ -79,7 +79,9 @@ reversedTurtles = turtles.reverse();
 turtleNames = turtles.join(" ");
 turtles.push("Splinter");
 turtles.pop(); */
-let turtles;
+/* let turtles;
  turtles = ["Leo", "Don", "Ralph", "Michael"];
  let lastturtle = turtles.pop(); //returns Michael
- $("#response").html(lastturtles);
+ $("#response").html(lastturtles); */
+ $(".first-paragraph").addClass("lead");
+ $("p").html("Long Live Harry Styles.");
